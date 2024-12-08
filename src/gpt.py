@@ -18,6 +18,7 @@ dropout = 0.2
 # ------------
 
 torch.manual_seed(1337)
+print("training time:", max_iters)
 
 # wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 with open('../data/text9/input.txt', 'r', encoding='utf-8') as f:
