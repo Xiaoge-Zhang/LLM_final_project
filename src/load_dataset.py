@@ -1,7 +1,7 @@
 from datasets import load_dataset
 
 # Step 1: Load the dataset
-dataset = load_dataset("Skylion007/openwebtext")
+dataset = load_dataset("Skylion007/openwebtext", trust_remote_code=True)
 
 # Step 2: Specify the local directory where you want to save the dataset
 local_directory = "../data/"
