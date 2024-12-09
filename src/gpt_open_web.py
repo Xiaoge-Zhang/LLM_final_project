@@ -268,8 +268,8 @@ if __name__ == '__main__':
         if iter % eval_iterations == 0 or iter == max_iteration-1:
             losses = estimate_loss()
             print(f"step: {iter + last_iter}, train loss: {losses['train']:.3f}, val loss: {losses['val']:.3f}")
-            training_losses.append(losses['train'])
-            testing_losses.append(losses['val'])
+            training_losses.append(losses['train'].item())
+            testing_losses.append(losses['val'].item())
             iterations.append(iter + last_iter)
 
         # sample a batch of data
