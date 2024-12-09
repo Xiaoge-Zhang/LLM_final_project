@@ -26,7 +26,7 @@ def plot_loss_curves():
     plt.grid(True)
 
     # Save the plot as a PDF
-    plt.savefig('../training_losses_{}.pdf'.format(save_name), format='pdf')
+    plt.savefig('../visualization/training_losses_{}.pdf'.format(save_name), format='pdf')
 
     # Display the plot
     plt.show()

@@ -1,0 +1,12 @@
+iterations,train_losses,test_losses
+0,tensor(10.4779),tensor(10.4788)
+100,tensor(2.6969),tensor(2.7139)
+200,tensor(2.4564),tensor(2.4801)
+300,tensor(2.2905),tensor(2.2987)
+400,tensor(2.1890),tensor(2.1815)
+500,tensor(2.0427),tensor(2.0456)
+600,tensor(1.9791),tensor(2.0188)
+700,tensor(1.9564),tensor(1.9846)
+800,tensor(1.9285),tensor(1.9238)
+900,tensor(1.8595),tensor(1.9052)
+999,tensor(1.8413),tensor(1.8166)
