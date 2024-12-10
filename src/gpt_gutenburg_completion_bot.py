@@ -140,8 +140,8 @@ dropout = 0.2
 ffoward_inner_size = 4
 
 # the name of the book
-book_name = 'wizard_of_oz'
-max_completion_length = 150
+book_name = 'crime_and_punishment'
+max_completion_length = 200
 
 file_dir = '../data/' + book_name + '.txt'
 model_dir = '../saved_model/{}_model.pkl'.format(book_name)

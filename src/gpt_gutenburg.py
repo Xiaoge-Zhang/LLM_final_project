@@ -203,7 +203,7 @@ if __name__ == '__main__':
     n_blocks = 8
     dropout = 0.2
     ffoward_inner_size = 4
-    book_name = 'wizard_of_oz'
+    book_name = 'les_miserables'
 
     loss_file_dir = '../model_losses/' + book_name + '_losses.csv'
     save_name = '{}_model'.format(book_name)

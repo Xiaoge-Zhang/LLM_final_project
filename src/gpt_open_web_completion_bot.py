@@ -141,7 +141,7 @@ ffoward_inner_size = 4
 
 # determine the vocab size
 model_name = 'open_web'
-max_completion_length = 150
+max_completion_length = 200
 
 vocab_file = '../processed_data/' + model_name + '_vocab.txt'
 model_dir = '../saved_model/{}_model.pkl'.format(model_name)
